@@ -19,10 +19,10 @@ allprojects {
 
     ext {
         appName = 'Experienced Pixel Dungeon'
-        appPackageName = 'com.trashboxbobylev.experiencedpixeldungeon.redone'
+        appPackageName = 'com.ae7th.experiencedpixeldungeon.repaired'
 
-        appVersionCode = 666
-        appVersionName = 'ExpPD-2.19.0'
+        appVersionCode = 667
+        appVersionName = 'ExpPD-2.19.1'
 
         appJavaCompatibility = JavaVersion.VERSION_1_8
 
