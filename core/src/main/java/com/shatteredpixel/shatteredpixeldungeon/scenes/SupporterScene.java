@@ -138,7 +138,7 @@ public class SupporterScene extends PixelScene {
 			add(bg);
 
 			String message = Messages.get(Dungeon.class, "last_words");
-			message += "\n\n- TrashboxBobylev";
+			message += "\n\n- ae7th";
 
 			text = PixelScene.renderTextBlock(message, 6);
 			add(text);
