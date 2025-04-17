@@ -98,6 +98,8 @@ public class Clayball extends MissileWeapon {
 		}
 
 		for (Char target : targets){
+      if (target == null)
+        continue ;
 			if (target != Dungeon.hero) {
 				Viscosity.DeferedDamage dmg = Buff.affect(target, Viscosity.DeferedDamage.class);
 				if (dmg != null) {
